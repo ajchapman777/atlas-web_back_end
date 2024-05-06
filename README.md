@@ -1,1 +1,1 @@
-These are the solutions to the tasks in project ES6 Basic
+These are the solutions to all of the projects in ES6
