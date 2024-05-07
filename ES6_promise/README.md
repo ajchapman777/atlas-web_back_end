@@ -1,0 +1,1 @@
+These are the tasks for project ES6 Promises
