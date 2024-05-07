@@ -10,8 +10,13 @@ export default class Building {
     return this._sqft;
   }
 
-  // Private method to enforce method overriding
-  _enforceEvacuationWarningMessage() {
+  // Method to check if evacuationWarningMessage is implemented
+  evacuationWarningMessage() {
     throw new Error('Class extending Building must override evacuationWarningMessage');
   }
+	// eslint-disable-next-line class-methods-use-this
+evacuationWarningMessage() {
+  throw new Error('Class extending Building must override evacuationWarningMessage');
+}
+
 }
