@@ -1,1 +1,1 @@
-These are the tasks for project ES6 classes
+THese are the tasks for project ES6 classes
