@@ -10,8 +10,8 @@ export default class Building {
     return this._sqft;
   }
 
-  // Method to check if evacuationWarningMessage is implemented
-  evacuationWarningMessage() {
+  // Private method to enforce method overriding
+  _enforceEvacuationWarningMessage() {
     throw new Error('Class extending Building must override evacuationWarningMessage');
   }
 }
