@@ -8,6 +8,6 @@ export function getLast() {
 }
 
 export function taskNext() {
-  const combination = 'But sometimes let'; // Using const here
+  let combination = 'But sometimes let'; // Using let here
   return combination + getLast();
 }
