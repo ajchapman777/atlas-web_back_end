@@ -5,7 +5,7 @@ class Airport {
   }
 
   toString() {
-    return `[${this._code}]`;
+    return `Airport [${this._code}] { _name: '${this._name}', _code: '${this._code}' }`;
   }
 }
 
