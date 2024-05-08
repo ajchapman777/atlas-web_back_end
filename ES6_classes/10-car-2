@@ -10,6 +10,7 @@ export default class Car {
   }
 
   cloneCar() {
+    // Create a new instance of the Car class with the same attribute values
     return new Car(this[brandSymbol], this[motorSymbol], this[colorSymbol]);
   }
 }
