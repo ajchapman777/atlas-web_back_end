@@ -1,10 +1,9 @@
 export default function taskBlock(trueOrFalse) {
-  const task = false; // Use const instead of let
-  const task2 = true; // Use const instead of let
+  const task = false;
+  const task2 = true;
 
   if (trueOrFalse) {
-    const task = true; // Use const instead of let
-    const task2 = false; // Use const instead of let
+    // Remove the assignments here
   }
 
   return [task, task2];
